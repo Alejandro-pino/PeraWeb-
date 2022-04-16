@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF
+}
+
+li{
+    a{
+        button{
+            font-family:'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    
+
+        }
+    }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.nav__links {
+    list-style: none;
+    background-color: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition:  all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0078a9 
+}
+button{
+    padding:  10px 25px;
+    background-color: rgba( 0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:  all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba( 0, 136, 169, 0.8);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Andada Pro', serif;
+    color: black;
+}
+h1 {
+    color: #8a2be2;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    font-weight: 200;
+    
+}
+h2 {
+    color: #8a2be2;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    font-weight: 200;
+}
+h3{
+    color:#8a2be2;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    font-weight: 200;
+}
+h4{
+    color: #8a2be2;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    font-weight: 200;
+}
+p{
+    margin: 30px;
+    font-family:'Andada Pro', serif;
+    text-align: center;
+    
+    color:black;
+}
+.article-main-image-component {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.full-width {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+     }
+    .nama {
+    font-style:normal ;
+    }
+
+    .italica {
+    font-style: italic;
+}
+.negrita {
+    font-weight: bold;
+}
+
+.textoRelativo {
+    font-size: 20px;
+}
+
+
+    
+   ul {
+       margin: 20px;
+    list-style-type: upper-alpha;
+    list-style: upper-alpha;
+    list-style-position: inside;
+    text-align: left;
+    color: black;
+   }
+   
+
+.centrar {
+    text-align: center;
+}
+
+    .flexbox {
+        width: 400px;
+        border: 1px blueviolet;
+        height: 100px;
+        padding: 60px ;
+        margin: 25px;
+        background-color: gray;
+        color:black;
+        overflow: hidden;
+        border: thistle 10px outset;
+
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+.padreJustifycontent { display: grid; border: 1px;  grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 100px 100px 100px 100px;}
+.padreJustifycontent .item-img { background-color: white;}
+
+    .justifycontentSpacebetween {
+        justify-content: space-between;
+        display: grid;
+        border: dotted 1px blueviolet;
+        grid-template-columns: auto auto;
+        grid-row: auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        background-color: gray;
+        align-items: center;
+        align-items: stretch;
+        overflow: hidden;
+        margin: 10px;
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+/*grilla*/
+.caja-grid {
+	display: grid;
+	margin: 30px 0 30px 0;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(3,200px);
+	gap: 1px 1px;
+	text-align: center;
+	justify-content: stretch;
+	font-size: 1.5rem;
+	grid-template-areas:
+	"información1 información1 información1 información1"
+	"infromación2 infromación2 infromación3 infromación4";
+    overflow: hidden;
+}
+
+.información1 {
+    grid-area: información1;
+    background-color:#e6eaf2 ;
+
+}
+.información2{
+    grid-area: infromación2;
+    background-color: #5b4cad;
+}
+.información3{
+    grid-area: información3;
+    background-color:#6944ad ;
+}
+.información4{
+    grid-area: infromación4;
+    background-color: #806ded;
+}
+
